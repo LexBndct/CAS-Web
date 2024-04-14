@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column, .box {
+    width: 90%;
+    padding: 20px;
+}
+
+.box {
+    position: relative;
+    margin-top: 30px;
+}
+
+.box .title {
+    text-align: center;
+}
+
+.tanggal-tempat {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.tanggal-tempat p {
+    font-size: 18px;
+}
+
+.section .title {
+    font-size: 30px;
+}
+
+.section .etc {
+    margin-top: 10%;
+}
+
+.etc p {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.etc .blm-ada {
+    font-size: 14px;
+    padding: 3px;
+}
+
+.etc .btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #444;
+    transition: .5s;
+}
+
+.btn button:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries for Responsive Layout */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column, .box {
+    width: 90%;
+    padding: 20px;
+}
+
+.box {
+    position: relative;
+    margin-top: 30px;
+}
+
+.box .title {
+    text-align: center;
+}
+
+.tanggal-tempat {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+.tanggal-tempat p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.section .title {
+    font-size: 30px;
+}
+
+.section .etc {
+    margin-top: 3%;
+}
+
+.etc p {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.etc .blm-ada {
+    font-size: 14px;
+    padding: 3px;
+}
+
+.etc .btn {
+    margin-top: 10px;
+}
+
+.btn button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #444;
+    transition: .5s;
+}
+
+.btn button:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries for Responsive Layout */
+
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 16px;
+    }
+
+
+}
+@media screen and (max-width: 440px) {
+    nav {
+        font-size: 14px;
+    }
+    
+
+}
+@media screen and (max-width: 450px) {
+    nav {
+        font-size: 12px;
+    }
+
+    .box .title, p, h1{
+        font-size: 15px;
+    }
+    
+    .tanggal-tempat p {
+        font-size: 13px;
+        padding: 20px;
+    }
+    
+    .btn button {
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+        background-color: #444;
+        transition: .5s;
+    }
+}
+
+
